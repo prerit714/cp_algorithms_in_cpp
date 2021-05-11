@@ -49,7 +49,7 @@ void lcs() {
 void init_lcs_string() {
     size_t i{m}, j{n};
     while (i>0&&j>0) {
-        if (x[i-1]==y[i-1]) {
+        if (x[i-1]==y[j-1]) {
             s.push_back(x[i-1]);
             i--;
             j--;

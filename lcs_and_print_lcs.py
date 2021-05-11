@@ -43,7 +43,6 @@ def lcs():
 
 
 def main():
-    '''The main code goes here'''
     lcs()
     print_lcs()
 
