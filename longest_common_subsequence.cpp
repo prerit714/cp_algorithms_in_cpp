@@ -73,6 +73,7 @@ int main() {
     lcs();
     init_lcs_string();
     cout << p << '|' << s << NL;
+    cout << "This is lit!" << NL;
     return 0;
 }
 
